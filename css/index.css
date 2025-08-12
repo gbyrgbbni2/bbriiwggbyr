@@ -1,0 +1,89 @@
+
+
+body{
+    background: #fff;
+    height: 100vh;
+}
+
+.nvi img{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.foot{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-size: 14px;
+    background-color: #04549c;
+    color: #fff;
+    padding: 15px;
+}
+
+.boxsal{
+    background-color: #04549c;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.boxsal img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.formbox{
+    padding: 20px;
+    margin-top: 70px;
+}
+
+#formdata{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.titlecetak{
+    width: 100%;
+    border-radius: 20px;
+    border-bottom: 3px solid #246ba3;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #04549c;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.inp{
+    margin-bottom: 20px;
+}
+
+.inp input{
+    width: 100%;
+    border: none;
+    border: 1px solid #ccc;
+    padding: 7px;
+    outline-color: #246ba3;
+    border-radius: 5px;
+}
+
+.kirim{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #04549c;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
